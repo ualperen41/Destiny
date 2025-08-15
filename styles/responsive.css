@@ -46,3 +46,17 @@
     justify-content: center;
    }
 }
+@media (max-width: 800px) {
+    #services .windows {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+     #services .windows .window {
+        width: 600px;
+     }
+}
+@media (max-width: 600px) {
+    #services .windows .window {
+        width: 400px;
+    }
+}
